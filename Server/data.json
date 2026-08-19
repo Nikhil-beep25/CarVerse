@@ -1,0 +1,613 @@
+{
+  "category": [],
+  "brand": [
+    {
+      "name": "Audi",
+      "pic": "brand/audi.png",
+      "status": true,
+      "id": "u2DTNppuZvI"
+    },
+    {
+      "name": "BMW",
+      "pic": "brand/bmw.jpg",
+      "status": true,
+      "id": "uLOc9CMGSjs"
+    },
+    {
+      "name": "Honda",
+      "pic": "brand/honda.png",
+      "status": true,
+      "id": "sdKxmISyojg"
+    },
+    {
+      "name": "Hundai",
+      "pic": "brand/hundai.jpg",
+      "status": true,
+      "id": "hQc_8WMB7_E"
+    },
+    {
+      "name": "Maruti Suzuki",
+      "pic": "brand/maruti.png",
+      "status": true,
+      "id": "XMuJkKNpmmk"
+    },
+    {
+      "name": "Nissan",
+      "pic": "brand/nissan.jpg",
+      "status": true,
+      "id": "cjSE1V9GRRg"
+    },
+    {
+      "name": "Renault",
+      "pic": "brand/renault.jpg",
+      "status": true,
+      "id": "iZ4_WGOMpWQ"
+    },
+    {
+      "name": "Tata",
+      "pic": "brand/tata.png",
+      "status": true,
+      "id": "vov0kKQV18U"
+    },
+    {
+      "name": "Mahindra",
+      "pic": "brand/mahinrdra.jpg",
+      "status": true,
+      "id": "6LR5Akzm6rw"
+    },
+    {
+      "name": "Toyota",
+      "pic": "brand/toyota.png",
+      "status": true,
+      "id": "03KiaMuvjvU"
+    },
+    {
+      "name": "WolksWegen",
+      "pic": "brand/wolkswegen.jpg",
+      "status": true,
+      "id": "exAx0HCkqlo"
+    },
+    {
+      "name": "Kia",
+      "pic": "brand/kia.png",
+      "status": true,
+      "id": "Jq84SvE7WQA"
+    },
+    {
+      "name": "MG",
+      "pic": "brand/mg.png",
+      "status": true,
+      "id": "gbDtUtnjSN0"
+    }
+  ],
+  "car": [
+    {
+      "name": "Maruti Suzuki Swift",
+      "registrationNumber": "HR 51 CA 1888",
+      "drivingMode": "Manual",
+      "driver": false,
+      "type": "CNG",
+      "seatingCapacity": "5",
+      "category": "Hatchback",
+      "brand": "Maruti Suzuki",
+      "baseRentAmount": 2000,
+      "discount": 40,
+      "finalRentAmount": 1200,
+      "address": {
+        "address": {
+          "address": {
+            "address": {
+              "address": {
+                "address": {
+                  "address": {
+                    "address": {
+                      "address": {
+                        "address": {
+                          "address": {
+                            "address": {
+                              "address": "A-43, Sector 16, Noida",
+                              "lat": "28.5778608",
+                              "lon": "77.3150912"
+                            },
+                            "lat": "39.8864871",
+                            "lon": "-83.4472051"
+                          },
+                          "lat": "39.8864871",
+                          "lon": "-83.4472051"
+                        },
+                        "lat": "39.8864871",
+                        "lon": "-83.4472051"
+                      },
+                      "lat": "39.8864871",
+                      "lon": "-83.4472051"
+                    },
+                    "lat": "39.8864871",
+                    "lon": "-83.4472051"
+                  },
+                  "lat": "39.8864871",
+                  "lon": "-83.4472051"
+                },
+                "lat": "39.8864871",
+                "lon": "-83.4472051"
+              },
+              "lat": "39.8864871",
+              "lon": "-83.4472051"
+            },
+            "lat": "39.8864871",
+            "lon": "-83.4472051"
+          },
+          "lat": "39.8864871",
+          "lon": "-83.4472051"
+        },
+        "lat": "39.8864871",
+        "lon": "-83.4472051"
+      },
+      "pic": [
+        "car/swift-back.avif",
+        "car/swift-front.avif",
+        "car/swift-side.avif"
+      ],
+      "status": true,
+      "id": "LV_8Ra_qUbE"
+    },
+    {
+      "name": "Tata Sierra",
+      "registrationNumber": "HR 51 CA 1889",
+      "drivingMode": "Autometic",
+      "driver": false,
+      "type": "Petrol",
+      "seatingCapacity": "5",
+      "category": "Suv",
+      "brand": "Tata",
+      "baseRentAmount": 4000,
+      "discount": 40,
+      "finalRentAmount": 2400,
+      "address": {
+        "address": "Sector 16,  Faridabad, Haryana 121001",
+        "lat": "28.4090425",
+        "lon": "77.3223258"
+      },
+      "pic": [
+        "car/Sierra-front-bumper-222.avif",
+        "car/Sierra-front-left-side-47.avif",
+        "car/Sierra-rear-left-view-121.avif"
+      ],
+      "status": true,
+      "id": "CI1yIatoWZQ"
+    },
+    {
+      "name": "Honda Amaze",
+      "registrationNumber": "DL 8CAZ 1000",
+      "drivingMode": "Manual",
+      "driver": false,
+      "type": "Petrol",
+      "seatingCapacity": "5",
+      "category": "Sedan",
+      "brand": "Honda",
+      "baseRentAmount": 1800,
+      "discount": 20,
+      "finalRentAmount": 1440,
+      "address": {
+        "address": "A-52, Sector 16, Noida",
+        "lat": "28.5778608",
+        "lon": "77.3150912"
+      },
+      "pic": [
+        "car/Amaze-exterior-image-172.avif",
+        "car/Amaze-front-left-side-47.avif"
+      ],
+      "status": true,
+      "id": "MOMPILA5p-A"
+    },
+    {
+      "name": "Audi Q7",
+      "registrationNumber": "DL 8CAZ 1001",
+      "drivingMode": "Autometic",
+      "driver": false,
+      "type": "Diesel",
+      "seatingCapacity": "5",
+      "category": "Sedan",
+      "brand": "Audi",
+      "baseRentAmount": 8000,
+      "discount": 50,
+      "finalRentAmount": 4000,
+      "address": {
+        "address": "Sector 16,  Faridabad, Haryana 121001",
+        "lat": "28.4090425",
+        "lon": "77.3223258"
+      },
+      "pic": [
+        "car/Audi-back-view-119.avif",
+        "car/Audi-front-left-side-47.avif",
+        "car/Audi-front-view-118.avif"
+      ],
+      "status": true,
+      "id": "KwyOuo776gU"
+    },
+    {
+      "name": "MG Hector",
+      "registrationNumber": "DL 8CAZ 1111",
+      "drivingMode": "Autometic",
+      "driver": true,
+      "type": "Petrol",
+      "seatingCapacity": "7",
+      "category": "Suv",
+      "brand": "MG",
+      "baseRentAmount": 5600,
+      "discount": 56,
+      "finalRentAmount": 2464,
+      "address": {
+        "address": "Sector 16,  Faridabad, Haryana 121001",
+        "lat": "28.4090425",
+        "lon": "77.3223258"
+      },
+      "pic": [
+        "car/Hector-dashboard-59.avif",
+        "car/Hector-front-left-side-47.avif",
+        "car/Hector-side-mirror-(body)-93.avif"
+      ],
+      "status": true,
+      "id": "KctSElkBTsM"
+    },
+    {
+      "name": "Maruti Ertiga",
+      "registrationNumber": "DL 8CAZ 1100",
+      "drivingMode": "Manual",
+      "driver": false,
+      "type": "CNG",
+      "seatingCapacity": "7",
+      "category": "Suv",
+      "brand": "Maruti Suzuki",
+      "baseRentAmount": 3400,
+      "discount": 40,
+      "finalRentAmount": 2040,
+      "address": {
+        "address": "A-52, Sector 16, Noida",
+        "lat": "28.5778608",
+        "lon": "77.3150912"
+      },
+      "pic": [
+        "car/Ertiga-front-left-side-47.avif",
+        "car/Ertiga-grille-97.avif",
+        "car/Ertiga-open-trunk-49.avif"
+      ],
+      "status": true,
+      "id": "B-jPTxzge5I"
+    },
+    {
+      "name": "Mahindra Scorpio",
+      "registrationNumber": "UP 16 AB 1999",
+      "drivingMode": "Autometic",
+      "driver": false,
+      "type": "Diesel",
+      "seatingCapacity": "7",
+      "category": "Suv",
+      "brand": "Mahindra",
+      "baseRentAmount": 4500,
+      "discount": 45,
+      "finalRentAmount": 2475,
+      "address": {
+        "address": "A-52, Sector 16, Noida",
+        "lat": "28.5778608",
+        "lon": "77.3150912"
+      },
+      "pic": [
+        "car/Scorpio-front-left-side-47.avif",
+        "car/Scorpio-front-right-view-120.avif",
+        "car/Scorpio-rear-left-view-121.avif"
+      ],
+      "status": true,
+      "id": "n3Xb09icyk4"
+    },
+    {
+      "name": "Toyota Innova",
+      "registrationNumber": "HR 51 CA 1819",
+      "drivingMode": "Autometic",
+      "driver": false,
+      "type": "Petrol + Hybrid",
+      "seatingCapacity": "7",
+      "category": "Suv",
+      "brand": "Toyota",
+      "baseRentAmount": 3000,
+      "discount": 30,
+      "finalRentAmount": 2100,
+      "address": {
+        "address": "A-43, Sector 16, Noida",
+        "lat": "28.5778608",
+        "lon": "77.3150912"
+      },
+      "pic": [
+        "car/Innova-exterior-image-164.avif",
+        "car/Innova-front-left-side-47.avif",
+        "car/Innova-front-view-118.avif"
+      ],
+      "status": true,
+      "id": "Y2KnzhaiTiA"
+    },
+    {
+      "name": "Hundai Venu",
+      "registrationNumber": "HR 51 CA 1109",
+      "drivingMode": "Manual",
+      "driver": false,
+      "type": "Petrol",
+      "seatingCapacity": "5",
+      "category": "Suv",
+      "brand": "Hundai",
+      "baseRentAmount": 4000,
+      "discount": 70,
+      "finalRentAmount": 1200,
+      "address": {
+        "address": "A-43, Sector 16, Noida",
+        "lat": "28.5778608",
+        "lon": "77.3150912"
+      },
+      "pic": [
+        "car/Hyundai-front-left-side-47.avif",
+        "car/Hyundai-front-view-118.avif",
+        "car/Hyundai-rear-right-side-48.avif"
+      ],
+      "status": true,
+      "id": "YBQgT6TRtBo"
+    }
+  ],
+  "feature": [
+    {
+      "name": "Wide Vehicle Selection",
+      "icon": "<i class=\"bi bi-car-front-fill\"></i>",
+      "shortDescription": "Choose from an extensive fleet of economy cars, luxury sedans, SUVs, hatchbacks, and premium vehicles. Whether you're traveling for business, leisure, or family vacations, CarVerse offers the perfect vehicle to match your comfort, budget, and travel requirements.",
+      "status": true,
+      "id": "DMmHO2oG0wk"
+    },
+    {
+      "name": "Affordable Pricing",
+      "icon": "<i class=\"bi bi-currency-dollar\"></i>",
+      "shortDescription": "Enjoy transparent and competitive rental prices with no hidden charges. Our flexible pricing plans are designed to suit daily, weekly, and monthly rentals, ensuring exceptional value while maintaining high-quality vehicles and customer service.",
+      "status": true,
+      "id": "tQplcsD4F3o"
+    },
+    {
+      "name": "Easy Online Booking",
+      "icon": "<i class=\"bi bi-calendar2-check-fill\"></i>",
+      "shortDescription": "Reserve your preferred vehicle in just a few clicks through our intuitive online booking platform. Select your dates, choose your car, and confirm instantly for a seamless and convenient rental experience.",
+      "status": true,
+      "id": "KMkFvi4Q7eE"
+    },
+    {
+      "name": "24/7 Customer Support",
+      "icon": "<i class=\"bi bi-headset\"></i>",
+      "shortDescription": "Our dedicated support team is available around the clock to assist with reservations, roadside emergencies, booking modifications, and general inquiries, ensuring a stress-free rental experience whenever you need help.",
+      "status": true,
+      "id": "DEW2zDGZNvM"
+    },
+    {
+      "name": "Well-Maintained Vehicles",
+      "icon": "<i class=\"bi bi-tools\"></i>",
+      "shortDescription": "Every vehicle is thoroughly inspected, professionally cleaned, and regularly serviced before every rental. We prioritize your safety, comfort, and reliability so you can travel confidently on every journey.",
+      "status": true,
+      "id": "hoV4ZcvlkA8"
+    },
+    {
+      "name": "Flexible Rental Plans",
+      "icon": "<i class=\"bi bi-clock-history\"></i>",
+      "shortDescription": "Whether you need a car for a few hours, several days, weeks, or even months, CarVerse offers flexible rental durations with customized packages to suit your travel schedule and budget.",
+      "status": true,
+      "id": "qfvTDc2inPw"
+    },
+    {
+      "name": "GPS Navigation Available",
+      "icon": "<i class=\"bi bi-geo-alt-fill\"></i>",
+      "shortDescription": "Navigate unfamiliar routes effortlessly with optional GPS-enabled vehicles. Reach your destination quickly, avoid traffic delays, and enjoy a smoother travel experience without worrying about getting lost.",
+      "status": true,
+      "id": "Pjep10i6rXI"
+    },
+    {
+      "name": "Airport Pickup & Drop",
+      "icon": "<i class=\"bi bi-airplane-fill\"></i>",
+      "shortDescription": "Start and end your journey with ease using our convenient airport pickup and drop-off services. We ensure timely vehicle delivery and collection, making business and leisure travel more comfortable.",
+      "status": true,
+      "id": "KtkBGpSbxkM"
+    },
+    {
+      "name": "Fully Insured Vehicles",
+      "icon": "<i class=\"bi bi-shield-check\"></i>",
+      "shortDescription": "Travel with complete confidence knowing every rental vehicle is protected by comprehensive insurance coverage, giving you extra peace of mind against unexpected incidents during your trip.",
+      "status": true,
+      "id": "NH6EMEyYgtM"
+    },
+    {
+      "name": "Instant Booking Confirmation",
+      "icon": "<i class=\"bi bi-check2-circle\"></i>",
+      "shortDescription": "Receive immediate booking confirmation after completing your reservation. Our automated system ensures quick processing so you can plan your journey without unnecessary delays or uncertainty.",
+      "status": true,
+      "id": "13WYguRbqsk"
+    },
+    {
+      "name": "Sanitized & Clean Cars",
+      "icon": "<i class=\"bi bi-droplet-half\"></i>",
+      "shortDescription": "Each vehicle undergoes professional cleaning and sanitization before every rental. We maintain strict hygiene standards to provide a fresh, comfortable, and healthy environment for every customer.",
+      "status": true,
+      "id": "Ko3b4VuxkT4"
+    },
+    {
+      "name": "Trusted & Secure Service",
+      "icon": "<i class=\"bi bi-award-fill\"></i>",
+      "shortDescription": "Thousands of customers rely on CarVerse for dependable, secure, and professional car rental services. Our commitment to quality, transparency, and customer satisfaction makes every trip worry-free and enjoyable.",
+      "status": true,
+      "id": "rDH_yoCBqWE"
+    }
+  ],
+  "service": [
+    {
+      "name": "Economy Car Rental",
+      "icon": "<i class=\"bi bi-car-front-fill\"></i>",
+      "shortDescription": "Enjoy affordable and fuel-efficient economy cars perfect for daily commuting, city travel, and budget-friendly trips. Our well-maintained vehicles offer comfort, reliability, and excellent mileage without compromising on quality or convenience.",
+      "status": true,
+      "id": "YF0LsWhq8yk"
+    },
+    {
+      "name": "Luxury Car Rental",
+      "icon": "<i class=\"bi bi-gem\"></i>",
+      "shortDescription": "Experience premium comfort and elegance with our luxury vehicle collection. Perfect for weddings, corporate events, business meetings, and special occasions, our luxury cars combine sophisticated design, advanced technology, and exceptional performance.",
+      "status": true,
+      "id": "6R-fM7j_kZA"
+    },
+    {
+      "name": "SUV Rental",
+      "icon": "<i class=\"bi bi-truck-front-fill\"></i>",
+      "shortDescription": "Travel confidently with spacious SUVs designed for family vacations, road trips, and off-road adventures. Enjoy powerful performance, extra luggage space, modern safety features, and superior comfort for every journey.",
+      "status": true,
+      "id": "tjTSsQXCrk0"
+    },
+    {
+      "name": "Airport Transfer Service",
+      "icon": "<i class=\"bi bi-airplane-fill\"></i>",
+      "shortDescription": "Book reliable airport pickup and drop-off services with professional drivers and punctual scheduling. We ensure smooth transfers to and from the airport, making your travel experience comfortable, convenient, and stress-free.",
+      "status": true,
+      "id": "ICmCngauPa0"
+    },
+    {
+      "name": "Self-Drive Car Rental",
+      "icon": "<i class=\"bi bi-arrow-repeat\"></i>",
+      "shortDescription": "Take complete control of your journey with our self-drive rental service. Choose your preferred vehicle and enjoy the freedom, privacy, and flexibility to travel wherever and whenever you want.",
+      "status": true,
+      "id": "0VJZOHgDNGk"
+    },
+    {
+      "name": "Chauffeur Driven Cars",
+      "icon": "<i class=\"bi bi-person-badge-fill\"></i>",
+      "shortDescription": "Relax while our experienced and professional chauffeurs handle the driving. Ideal for business executives, tourists, family functions, and VIP transportation requiring comfort, safety, and premium customer service.",
+      "status": true,
+      "id": "7AR3FQAWcGU"
+    },
+    {
+      "name": "Corporate Car Rental",
+      "icon": "<i class=\"bi bi-briefcase-fill\"></i>",
+      "shortDescription": "Provide your employees and business partners with dependable transportation through our flexible corporate rental plans. We offer customized solutions for meetings, events, official travel, and long-term business requirements.",
+      "status": true,
+      "id": "0ynPhspiGNU"
+    },
+    {
+      "name": "Wedding Car Rental",
+      "icon": "<i class=\"bi bi-heart-fill\"></i>",
+      "shortDescription": "Make your special day unforgettable with our elegant wedding car rental service. Select from luxury sedans and premium vehicles that add sophistication, comfort, and style to your celebration.",
+      "status": true,
+      "id": "BVV6xqOdDLw"
+    },
+    {
+      "name": "Long-Term Car Rental",
+      "icon": "<i class=\"bi bi-calendar-range-fill\"></i>",
+      "shortDescription": "Need a vehicle for weeks or months? Our long-term rental plans offer affordable pricing, flexible contracts, regular maintenance, and dependable vehicles for personal and business use.",
+      "status": true,
+      "id": "mPrXmTm9Hpo"
+    },
+    {
+      "name": "Outstation Car Rental",
+      "icon": "<i class=\"bi bi-signpost-2-fill\"></i>",
+      "shortDescription": "Travel beyond city limits with confidence using our outstation rental service. Enjoy comfortable vehicles, transparent pricing, and reliable support for vacations, family visits, business tours, and weekend getaways.",
+      "status": true,
+      "id": "1Pgi1i9f5uk"
+    },
+    {
+      "name": "One-Way Car Rental",
+      "icon": "<i class=\"bi bi-arrow-right-circle-fill\"></i>",
+      "shortDescription": "Book a car for one-way travel without the need to return it to the original location. Our convenient service saves time, reduces travel costs, and offers maximum flexibility for your journey.",
+      "status": true,
+      "id": "cM_zcih7P2s"
+    },
+    {
+      "name": "Roadside Assistance",
+      "icon": "<i class=\"bi bi-life-preserver\"></i>",
+      "shortDescription": "Drive with complete peace of mind knowing our emergency roadside assistance is available whenever needed. From flat tires to mechanical issues, our support team is ready to help you quickly and efficiently.",
+      "status": true,
+      "id": "8XGVe3EVp80"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What documents are required to rent a car?",
+      "answer": "To rent a vehicle, you typically need a valid driving license, a government-issued photo ID (such as a passport or Aadhaar card), and a valid payment method. Some premium vehicles may require additional verification or a refundable security deposit before the booking is confirmed.",
+      "status": true,
+      "id": "5rhc7wMhrwk"
+    },
+    {
+      "question": "What is the minimum age requirement to rent a car?",
+      "answer": "he minimum age to rent a car is generally 21 years, although this may vary depending on the vehicle category. Certain luxury or premium vehicles may require drivers to be at least 25 years old with a valid driving history.",
+      "status": true,
+      "id": "AnTEiMMWaRw"
+    },
+    {
+      "question": "Can I book a car online?",
+      "answer": "Yes. CarVerse offers a simple and secure online booking system. You can browse available vehicles, select your preferred rental dates, choose pickup and drop-off locations, and receive instant booking confirmation after completing the reservation process.",
+      "status": true,
+      "id": "n8xdKj6iAak"
+    },
+    {
+      "question": "Are your vehicles insured?",
+      "answer": "Yes. Every vehicle in our fleet is covered by comprehensive insurance to provide additional peace of mind during your rental period. Coverage details and customer responsibilities are clearly explained at the time of booking and in the rental agreement.",
+      "status": true,
+      "id": "LQnt7fx6Me4"
+    },
+    {
+      "question": "Can I cancel or modify my booking?",
+      "answer": "Absolutely. You can modify or cancel your reservation according to our cancellation policy. Depending on how close your request is to the pickup date, cancellation charges may apply. Please contact our support team for assistance with any changes.",
+      "status": true,
+      "id": "CnNxivFOR1I"
+    },
+    {
+      "question": "Is there a mileage limit on rental cars?",
+      "answer": "Mileage limits depend on the rental package you choose. Some plans include unlimited mileage, while others have daily or total distance limits. Any additional mileage beyond the included limit will be charged according to the rental agreement.",
+      "status": true,
+      "id": "wMpDLGqzPcw"
+    },
+    {
+      "question": "Do you provide airport pickup and drop-off services?",
+      "answer": "Yes. We offer convenient airport pickup and drop-off services to make your travel easier. Simply provide your flight details during booking, and we'll ensure your vehicle is ready when you arrive or depart.",
+      "status": true,
+      "id": "0N8o5dbSLno"
+    },
+    {
+      "question": "What should I do if the car breaks down during my trip?",
+      "answer": "If you experience any mechanical issues or a breakdown, contact our 24/7 customer support immediately. Our roadside assistance team will arrange prompt help, including repairs, towing, or a replacement vehicle whenever necessary.",
+      "status": true,
+      "id": "RLldg4RQRWg"
+    },
+    {
+      "question": "Can someone else drive the rented vehicle?",
+      "answer": "Yes, additional drivers may be permitted if they are registered during the booking process and meet our eligibility requirements. Each additional driver must provide a valid driving license and any required identification before approval.",
+      "status": true,
+      "id": "visO4OapO1c"
+    },
+    {
+      "question": "How do I make a payment for my booking?",
+      "answer": "We accept multiple secure payment methods, including credit cards, debit cards, online banking, and popular digital payment options. Payment details are encrypted to ensure a safe, reliable, and hassle-free booking experience for every customer.",
+      "status": true,
+      "id": "splSPziYTm4"
+    }
+  ],
+  "setting": [
+    {
+      "siteName": "CarVerse",
+      "address": "A-52, Sector 16, Noida, Near Community Center Sector 15",
+      "map1": "",
+      "map2": "",
+      "email": "nikhilbhadauriya2500@gmail.com",
+      "phone": "8077313959",
+      "whatsapp": "8077313959",
+      "github": "https://github.com/Nikhil-beep25",
+      "facebook": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/itsnikhil_tech",
+      "youtube": "https://www.youtube.com/@ItsNikhilTech",
+      "linkedin": "https://www.linkedin.com/in/nikhil-bhadauriya-308414321",
+      "id": "C3wx93oIieI",
+      "privacyPolicy": "",
+      "dataPolicy": "<p>Testing</p>"
+    }
+  ],
+  "user": [],
+  "booking": [],
+  "newsletter": [],
+  "contactus": [],
+  "testimonial": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}
