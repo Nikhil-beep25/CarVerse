@@ -97,7 +97,7 @@ export default function AdminAnalyticsPage() {
     }
 
     const exportUrl = `${import.meta.env.VITE_APP_BACKEND_SERVER}/admin/reports/${reportType}${queryParam}`;
-    
+
     // Trigger download with auth token
     fetch(exportUrl, { headers: getAuthHeader() })
       .then((res) => {

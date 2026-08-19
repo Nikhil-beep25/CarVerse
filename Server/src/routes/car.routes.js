@@ -9,12 +9,18 @@ import {
   carIdParamSchema,
 } from '../validations/car.validation.js';
 import { ADMIN_ROLES } from '../constants/roles.js';
+import { logger } from '../utils/logger.js';
+
+console.log('Car routes loaded successfully');
 
 const router = express.Router();
 
 router
   .route('/')
-  .get(carController.getCars)
+  .get((req, res, next) => {
+    console.log('GET /api/v1/cars called');
+    return carController.getCars(req, res, next);
+  })
   .post(
     protect,
     authorize(...ADMIN_ROLES),
