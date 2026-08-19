@@ -28,44 +28,22 @@ router.get('/health', (req, res) => {
   });
 });
 
-// Mount module routers (with plural & singular aliases for compatibility)
+// Mount module routers
 router.use('/admin', adminRoutes);
 router.use('/analytics', analyticsRoutes);
-router.use('/reports', analyticsRoutes);
-
 router.use('/auth', authRoutes);
-
 router.use('/brands', brandRoutes);
-router.use('/brand', brandRoutes);
-
 router.use('/cars', carRoutes);
-router.use('/car', carRoutes);
-
 router.use('/categories', categoryRoutes);
-router.use('/category', categoryRoutes);
-
 router.use('/bookings', bookingRoutes);
-router.use('/booking', bookingRoutes);
-
 router.use('/payments', paymentRoutes);
-router.use('/payment', paymentRoutes);
-
 router.use('/reviews', reviewRoutes);
-router.use('/review', reviewRoutes);
-
 router.use('/wishlists', wishlistRoutes);
-router.use('/wishlist', wishlistRoutes);
-
 router.use('/faqs', faqRoutes);
-router.use('/faq', faqRoutes);
-
 router.use('/features', featureRoutes);
-router.use('/feature', featureRoutes);
-
 router.use('/services', serviceRoutes);
-router.use('/service', serviceRoutes);
-
 router.use('/settings', settingRoutes);
-router.use('/setting', settingRoutes);
+
+console.log('Car routes mounted successfully at /api/v1/cars');
 
 export default router;

@@ -18,7 +18,7 @@ const router = express.Router();
 router
   .route('/')
   .get((req, res, next) => {
-    console.log('GET /api/v1/cars called');
+    console.log('GET /api/v1/cars request received');
     return carController.getCars(req, res, next);
   })
   .post(
