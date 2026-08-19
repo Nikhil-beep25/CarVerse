@@ -1,0 +1,282 @@
+
+> CarVerse@0.0.0 lint
+> eslint .
+
+
+/Users/nikhilbhadauriya/Project 1/CarVerse/public/js/main.js
+   16:9  error  'WOW' is not defined     no-undef
+  117:4  error  'jQuery' is not defined  no-undef
+
+/Users/nikhilbhadauriya/Project 1/CarVerse/public/lib/counterup/counterup.min.js
+  11:2075  error  'direction' is defined but never used  no-unused-vars
+  11:2175  error  'jQuery' is not defined                no-undef
+
+/Users/nikhilbhadauriya/Project 1/CarVerse/public/lib/easing/easing.js
+  10:38  error  'define' is not defined   no-undef
+  11:3   error  'define' is not defined   no-undef
+  14:50  error  'module' is not defined   no-undef
+  15:3   error  'exports' is not defined  no-undef
+  15:21  error  'require' is not defined  no-undef
+  17:11  error  'jQuery' is not defined   no-undef
+
+/Users/nikhilbhadauriya/Project 1/CarVerse/public/lib/easing/easing.min.js
+  1:41   error  'define' is not defined   no-undef
+  1:52   error  'define' is not defined   no-undef
+  1:138  error  'module' is not defined   no-undef
+  1:153  error  'exports' is not defined  no-undef
+  1:163  error  'require' is not defined  no-undef
+  1:184  error  'jQuery' is not defined   no-undef
+
+/Users/nikhilbhadauriya/Project 1/CarVerse/public/lib/lightbox/js/lightbox.min.js
+  14:43    error  'define' is not defined                                         no-undef
+  14:54    error  'define' is not defined                                         no-undef
+  14:100   error  'module' is not defined                                         no-undef
+  14:117   error  'require' is not defined                                        no-undef
+  14:4021  error  The value assigned to 'i' is not used in subsequent statements  no-useless-assignment
+  14:4176  error  The value assigned to 'j' is not used in subsequent statements  no-useless-assignment
+  14:7046  error  'a' is defined but never used                                   no-unused-vars
+  14:7048  error  Empty block statement                                           no-empty
+
+/Users/nikhilbhadauriya/Project 1/CarVerse/public/lib/owlcarousel/owl.carousel.js
+    18:33   error  Shadowing of global property 'undefined'                                no-shadow-restricted-names
+   302:5    error  The value assigned to 'merge' is not used in subsequent statements      no-useless-assignment
+   357:5    error  The value assigned to 'previous' is not used in subsequent statements   no-useless-assignment
+   358:5    error  The value assigned to 'current' is not used in subsequent statements    no-useless-assignment
+   508:4    error  The value assigned to 'settings' is not used in subsequent statements   no-useless-assignment
+   707:7    error  The value assigned to 'stage' is not used in subsequent statements      no-useless-assignment
+   769:7    error  The value assigned to 'minimum' is not used in subsequent statements    no-useless-assignment
+   770:4    error  The value assigned to 'maximum' is not used in subsequent statements    no-useless-assignment
+   771:4    error  The value assigned to 'pull' is not used in subsequent statements       no-useless-assignment
+  1027:4    error  The value assigned to 'maximum' is not used in subsequent statements    no-useless-assignment
+  1189:4    error  The value assigned to 'revert' is not used in subsequent statements     no-useless-assignment
+  1294:34   error  'jQuery' is not defined                                                 no-undef
+  1326:32   error  'jQuery' is not defined                                                 no-undef
+  1494:58   error  'state' is defined but never used                                       no-unused-vars
+  1494:65   error  'enter' is defined but never used                                       no-unused-vars
+  1706:23   error  'document' is defined but never used                                    no-unused-vars
+  1706:33   error  Shadowing of global property 'undefined'                                no-shadow-restricted-names
+  1706:33   error  'undefined' is defined but never used                                   no-unused-vars
+  1818:33   error  Shadowing of global property 'undefined'                                no-shadow-restricted-names
+  1954:15   error  'window' is defined but never used                                      no-unused-vars
+  1954:23   error  'document' is defined but never used                                    no-unused-vars
+  1954:33   error  Shadowing of global property 'undefined'                                no-shadow-restricted-names
+  1954:33   error  'undefined' is defined but never used                                   no-unused-vars
+  2017:4    error  The value assigned to 'maxheight' is not used in subsequent statements  no-useless-assignment
+  2052:33   error  Shadowing of global property 'undefined'                                no-shadow-restricted-names
+  2052:33   error  'undefined' is defined but never used                                   no-unused-vars
+  2150:8    error  The value assigned to 'type' is not used in subsequent statements       no-useless-assignment
+  2159:5    error  The value assigned to 'id' is not used in subsequent statements         no-useless-assignment
+  2178:212  error  Unnecessary escape character: \&                                        no-useless-escape
+  2372:33   error  Shadowing of global property 'undefined'                                no-shadow-restricted-names
+  2495:33   error  Shadowing of global property 'undefined'                                no-shadow-restricted-names
+  2495:33   error  'undefined' is defined but never used                                   no-unused-vars
+  2603:37   error  'timeout' is defined but never used                                     no-unused-vars
+  2603:46   error  'speed' is defined but never used                                       no-unused-vars
+  2694:15   error  'window' is defined but never used                                      no-unused-vars
+  2694:23   error  'document' is defined but never used                                    no-unused-vars
+  2694:33   error  Shadowing of global property 'undefined'                                no-shadow-restricted-names
+  2694:33   error  'undefined' is defined but never used                                   no-unused-vars
+  2848:34   error  'e' is defined but never used                                           no-unused-vars
+  2855:34   error  'e' is defined but never used                                           no-unused-vars
+  2935:15   error  'k' is assigned a value but never used                                  no-unused-vars
+  3002:53   error  'index' is defined but never used                                       no-unused-vars
+  3023:4    error  The value assigned to 'length' is not used in subsequent statements     no-useless-assignment
+  3077:33   error  Shadowing of global property 'undefined'                                no-shadow-restricted-names
+  3151:62   error  'e' is defined but never used                                           no-unused-vars
+  3202:33   error  Shadowing of global property 'undefined'                                no-shadow-restricted-names
+
+/Users/nikhilbhadauriya/Project 1/CarVerse/public/lib/owlcarousel/owl.carousel.min.js
+  6:2307   error  The value assigned to 'c' is not used in subsequent statements  no-useless-assignment
+  6:3169   error  The value assigned to 'd' is not used in subsequent statements  no-useless-assignment
+  6:3173   error  The value assigned to 'e' is not used in subsequent statements  no-useless-assignment
+  6:5858   error  The value assigned to 'e' is not used in subsequent statements  no-useless-assignment
+  6:7080   error  The value assigned to 'a' is not used in subsequent statements  no-useless-assignment
+  6:8676   error  The value assigned to 'd' is not used in subsequent statements  no-useless-assignment
+  6:9755   error  The value assigned to 'b' is not used in subsequent statements  no-useless-assignment
+  6:9762   error  The value assigned to 'c' is not used in subsequent statements  no-useless-assignment
+  6:9769   error  The value assigned to 'd' is not used in subsequent statements  no-useless-assignment
+  6:13023  error  The value assigned to 'f' is not used in subsequent statements  no-useless-assignment
+  6:14297  error  The value assigned to 'c' is not used in subsequent statements  no-useless-assignment
+  6:14493  error  The value assigned to 'd' is not used in subsequent statements  no-useless-assignment
+  6:15633  error  'jQuery' is not defined                                         no-undef
+  6:16204  error  'jQuery' is not defined                                         no-undef
+  6:18710  error  'f' is defined but never used                                   no-unused-vars
+  6:18712  error  'g' is defined but never used                                   no-unused-vars
+  6:21453  error  'c' is defined but never used                                   no-unused-vars
+  6:21455  error  'd' is defined but never used                                   no-unused-vars
+  6:24301  error  'b' is defined but never used                                   no-unused-vars
+  6:24303  error  'c' is defined but never used                                   no-unused-vars
+  6:24305  error  'd' is defined but never used                                   no-unused-vars
+  6:25120  error  The value assigned to 'f' is not used in subsequent statements  no-useless-assignment
+  6:25585  error  'd' is defined but never used                                   no-unused-vars
+  6:26676  error  The value assigned to 'c' is not used in subsequent statements  no-useless-assignment
+  6:26773  error  The value assigned to 'd' is not used in subsequent statements  no-useless-assignment
+  6:27230  error  Unnecessary escape character: \&                                no-useless-escape
+  7:109    error  'd' is defined but never used                                   no-unused-vars
+  7:1401   error  'a' is defined but never used                                   no-unused-vars
+  7:1403   error  'b' is defined but never used                                   no-unused-vars
+  7:2399   error  'b' is defined but never used                                   no-unused-vars
+  7:2401   error  'c' is defined but never used                                   no-unused-vars
+  7:2403   error  'd' is defined but never used                                   no-unused-vars
+  7:4468   error  'a' is defined but never used                                   no-unused-vars
+  7:4652   error  'a' is defined but never used                                   no-unused-vars
+  7:5945   error  'c' is assigned a value but never used                          no-unused-vars
+  7:7207   error  'c' is defined but never used                                   no-unused-vars
+  7:7492   error  The value assigned to 'd' is not used in subsequent statements  no-useless-assignment
+  7:8941   error  'a' is defined but never used                                   no-unused-vars
+
+/Users/nikhilbhadauriya/Project 1/CarVerse/public/lib/wow/wow.js
+    8:39  error  'define' is not defined                                                    no-undef
+    9:5   error  'define' is not defined                                                    no-undef
+   11:13  error  'module' is not defined                                                    no-undef
+   11:21  error  'exports' is not defined                                                   no-undef
+  197:32  error  Unnecessary escape character: \-                                           no-useless-escape
+  426:26  error  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  450:13  error  The value assigned to 'aName' is not used in subsequent statements         no-useless-assignment
+  453:18  error  'error' is defined but never used                                          no-unused-vars
+
+/Users/nikhilbhadauriya/Project 1/CarVerse/public/lib/wow/wow.min.js
+  3:99    error  'define' is not defined                                                    no-undef
+  3:110   error  'define' is not defined                                                    no-undef
+  3:179   error  'module' is not defined                                                    no-undef
+  3:186   error  'exports' is not defined                                                   no-undef
+  3:2628  error  Unnecessary escape character: \-                                           no-useless-escape
+  3:6499  error  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  3:6878  error  The value assigned to 'b' is not used in subsequent statements             no-useless-assignment
+  3:6942  error  'c' is defined but never used                                              no-unused-vars
+
+/Users/nikhilbhadauriya/Project 1/CarVerse/src/App.jsx
+  64:57  error  'AdminServicePage' is not defined        no-undef
+  65:63  error  'AdminCreateServicePage' is not defined  no-undef
+  66:67  error  'AdminUpdateServicePage' is not defined  no-undef
+
+/Users/nikhilbhadauriya/Project 1/CarVerse/src/Pages/Admin/Brand/AdminBrandPage.jsx
+  33:6  warning  React Hook useEffect has missing dependencies: 'BrandStateData' and 'dispatch'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+/Users/nikhilbhadauriya/Project 1/CarVerse/src/Pages/Admin/Brand/AdminCreateBrandPage.jsx
+  63:6  warning  React Hook useEffect has a missing dependency: 'dispatch'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+/Users/nikhilbhadauriya/Project 1/CarVerse/src/Pages/Admin/Brand/AdminUpdateBrandPage.jsx
+  68:9  error    Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+  66 |       let item = BrandStateData.find(x => x.id === id)
+  67 |       if (item)
+> 68 |         setData({ ...data, ...item })
+     |         ^^^^^^^ Avoid calling setState() directly within an effect
+  69 |       else
+  70 |         navigate("/admin/brand")
+  71 |     }  react-hooks/set-state-in-effect
+  72:6  warning  React Hook useEffect has missing dependencies: 'BrandStateData', 'data', 'dispatch', 'id', and 'navigate'. Either include them or remove the dependency array. You can also do a functional update 'setData(d => ...)' if you only need 'data' in the 'setData' call                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   react-hooks/exhaustive-deps
+
+/Users/nikhilbhadauriya/Project 1/CarVerse/src/Pages/Admin/Category/AdminCategoryPage.jsx
+  35:6  warning  React Hook useEffect has missing dependencies: 'CategoryStateData' and 'dispatch'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+/Users/nikhilbhadauriya/Project 1/CarVerse/src/Pages/Admin/Category/AdminUpdateCategoryPage.jsx
+  83:17  error    Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+  81 |     if (CategoryStateData.length) {
+  82 |       let item = CategoryStateData.find((x) => x.id === id);
+> 83 |       if (item) setData({ ...data, ...item });
+     |                 ^^^^^^^ Avoid calling setState() directly within an effect
+  84 |       else navigate("/admin/category");
+  85 |     }
+  86 |   }, [CategoryStateData.length]);  react-hooks/set-state-in-effect
+  86:6   warning  React Hook useEffect has missing dependencies: 'CategoryStateData', 'data', 'dispatch', 'id', and 'navigate'. Either include them or remove the dependency array. You can also do a functional update 'setData(d => ...)' if you only need 'data' in the 'setData' call                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         react-hooks/exhaustive-deps
+
+/Users/nikhilbhadauriya/Project 1/CarVerse/src/Pages/Admin/Feature/AdminCreateFeaturePage.jsx
+  55:6  warning  React Hook useEffect has a missing dependency: 'dispatch'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+/Users/nikhilbhadauriya/Project 1/CarVerse/src/Pages/Admin/Feature/AdminFeaturePage.jsx
+  33:6  warning  React Hook useEffect has missing dependencies: 'FeatureStateData' and 'dispatch'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+/Users/nikhilbhadauriya/Project 1/CarVerse/src/Pages/Admin/Feature/AdminUpdateFeaturePage.jsx
+  62:9  error    Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+  60 |       let item = FeatureStateData.find(x => x.id === id)
+  61 |       if (item)
+> 62 |         setData({ ...data, ...item })
+     |         ^^^^^^^ Avoid calling setState() directly within an effect
+  63 |       else
+  64 |         navigate("/admin/feature")
+  65 |     }  react-hooks/set-state-in-effect
+  66:6  warning  React Hook useEffect has missing dependencies: 'FeatureStateData', 'data', 'dispatch', 'id', and 'navigate'. Either include them or remove the dependency array. You can also do a functional update 'setData(d => ...)' if you only need 'data' in the 'setData' call                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     react-hooks/exhaustive-deps
+
+/Users/nikhilbhadauriya/Project 1/CarVerse/src/Pages/Admin/Service/AdminCreateServicePage.jsx
+  55:6  warning  React Hook useEffect has a missing dependency: 'dispatch'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+/Users/nikhilbhadauriya/Project 1/CarVerse/src/Pages/Admin/Service/AdminServicePage.jsx
+  33:6  warning  React Hook useEffect has missing dependencies: 'ServiceStateData' and 'dispatch'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+/Users/nikhilbhadauriya/Project 1/CarVerse/src/Pages/Admin/Service/AdminUpdateServicePage.jsx
+  62:9  error    Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+  60 |       let item = ServiceStateData.find(x => x.id === id)
+  61 |       if (item)
+> 62 |         setData({ ...data, ...item })
+     |         ^^^^^^^ Avoid calling setState() directly within an effect
+  63 |       else
+  64 |         navigate("/admin/Service")
+  65 |     }  react-hooks/set-state-in-effect
+  66:6  warning  React Hook useEffect has missing dependencies: 'ServiceStateData', 'data', 'dispatch', 'id', and 'navigate'. Either include them or remove the dependency array. You can also do a functional update 'setData(d => ...)' if you only need 'data' in the 'setData' call                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     react-hooks/exhaustive-deps
+
+/Users/nikhilbhadauriya/Project 1/CarVerse/src/Redux/Sagas/BrandSagas.jsx
+   3:10  error  'createMultipartRecord' is defined but never used  no-unused-vars
+   3:72  error  'updateMultipartRecord' is defined but never used  no-unused-vars
+  11:19  error  'action' is defined but never used                 no-unused-vars
+
+/Users/nikhilbhadauriya/Project 1/CarVerse/src/Redux/Sagas/CarSagas.jsx
+   3:10  error  'createMultipartRecord' is defined but never used  no-unused-vars
+   3:72  error  'updateMultipartRecord' is defined but never used  no-unused-vars
+  11:19  error  'action' is defined but never used                 no-unused-vars
+
+/Users/nikhilbhadauriya/Project 1/CarVerse/src/Redux/Sagas/CategorySagas.jsx
+   3:10  error  'createMultipartRecord' is defined but never used  no-unused-vars
+   3:72  error  'updateMultipartRecord' is defined but never used  no-unused-vars
+  11:19  error  'action' is defined but never used                 no-unused-vars
+
+/Users/nikhilbhadauriya/Project 1/CarVerse/src/Redux/Sagas/FaqSagas.jsx
+   3:10  error  'createMultipartRecord' is defined but never used  no-unused-vars
+   3:72  error  'updateMultipartRecord' is defined but never used  no-unused-vars
+  11:19  error  'action' is defined but never used                 no-unused-vars
+
+/Users/nikhilbhadauriya/Project 1/CarVerse/src/Redux/Sagas/FeatureSagas.jsx
+   3:10  error  'createMultipartRecord' is defined but never used  no-unused-vars
+   3:72  error  'updateMultipartRecord' is defined but never used  no-unused-vars
+  11:19  error  'action' is defined but never used                 no-unused-vars
+
+/Users/nikhilbhadauriya/Project 1/CarVerse/src/Redux/Sagas/ServiceSagas.jsx
+   3:10  error  'createMultipartRecord' is defined but never used  no-unused-vars
+   3:72  error  'updateMultipartRecord' is defined but never used  no-unused-vars
+  11:19  error  'action' is defined but never used                 no-unused-vars
+
+/Users/nikhilbhadauriya/Project 1/CarVerse/src/Redux/Sagas/SettingSagas.jsx
+   3:10  error  'createMultipartRecord' is defined but never used  no-unused-vars
+   3:72  error  'updateMultipartRecord' is defined but never used  no-unused-vars
+  11:19  error  'action' is defined but never used                 no-unused-vars
+
+✖ 163 problems (152 errors, 11 warnings)
+

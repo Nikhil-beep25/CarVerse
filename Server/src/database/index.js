@@ -18,6 +18,13 @@ const mongooseOptions = {
  */
 export const connectDB = async () => {
   try {
+    const isAtlas = (env.MONGODB_URI || '').includes('mongodb.net') || (env.MONGODB_URI || '').startsWith('mongodb+srv');
+    const safeUriLog = isAtlas
+      ? 'MongoDB Atlas URI Loaded'
+      : (env.MONGODB_URI && !env.MONGODB_URI.includes('localhost') ? 'Custom Remote URI Loaded' : 'Local MongoDB URI Loaded');
+    
+    logger.info(`[MongoDB] Configuration: ${safeUriLog}`);
+
     const conn = await mongoose.connect(env.MONGODB_URI, mongooseOptions);
 
     logger.info(`[MongoDB] Connected successfully: ${conn.connection.host}/${conn.connection.name}`);
