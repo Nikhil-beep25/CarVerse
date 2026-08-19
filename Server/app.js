@@ -48,15 +48,28 @@ app.use('/uploads', express.static(path.resolve(__dirname, 'src/uploads')));
 // 8. Global API Rate Limiter
 app.use('/api', globalRateLimiter);
 
-// 9. Root Gateway Status Endpoint
+// 9. Dedicated Production Health Check Endpoints
+app.get(['/api/v1/health', '/api/health', '/health'], (req, res) => {
+  return res.status(200).json({
+    status: 'success',
+    message: 'CarVerse API is running',
+    environment: process.env.NODE_ENV || 'production',
+    uptime: process.uptime(),
+    timestamp: new Date().toISOString(),
+  });
+});
+
+// 10. Root Gateway Status Endpoint
 app.get('/', (req, res) => {
-  return ApiResponse.success(res, 'CarVerse Production API Gateway is running', {
-    version: '1.0.0',
+  return res.status(200).json({
+    status: 'success',
+    message: 'CarVerse API is running',
+    environment: process.env.NODE_ENV || 'production',
     documentation: '/api/v1/health',
   });
 });
 
-// 10. Versioned API Routes (/api/v1) & Backward-Compatible Route Alias (/api)
+// 11. Versioned API Routes (/api/v1) & Backward-Compatible Route Alias (/api)
 app.use('/api/v1', apiRouter);
 app.use('/api', apiRouter); // Ensures existing client calls continue working seamlessly
 

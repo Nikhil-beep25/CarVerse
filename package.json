@@ -1,5 +1,16 @@
 {
-  "dependencies": {
-    "react-toastify": "^11.1.0"
+  "name": "carverse-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node Server/server.js",
+    "server": "npm --prefix Server start",
+    "dev": "npm --prefix Server run dev",
+    "build": "npm --prefix Server install"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
   }
 }

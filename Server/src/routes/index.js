@@ -19,7 +19,10 @@ const router = express.Router();
 
 // Health check endpoint
 router.get('/health', (req, res) => {
-  return ApiResponse.success(res, 'CarVerse API is healthy and operational', {
+  return res.status(200).json({
+    status: 'success',
+    message: 'CarVerse API is running',
+    environment: process.env.NODE_ENV || 'production',
     uptime: process.uptime(),
     timestamp: new Date().toISOString(),
   });
