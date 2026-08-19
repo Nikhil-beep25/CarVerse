@@ -18,6 +18,9 @@ const mongooseOptions = {
  */
 export const connectDB = async () => {
   try {
+    if (!env.MONGODB_URI) {
+      throw new Error('MONGODB_URI is not defined in environment variables. Please provide a valid MongoDB connection string.');
+    }
     const isAtlas = (env.MONGODB_URI || '').includes('mongodb.net') || (env.MONGODB_URI || '').startsWith('mongodb+srv');
     const safeUriLog = isAtlas
       ? 'MongoDB Atlas URI Loaded'

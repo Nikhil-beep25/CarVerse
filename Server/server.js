@@ -21,10 +21,11 @@ const startServer = async () => {
     // 2. Provision initial super admin account safely
     await createDefaultAdmin();
 
-    // 3. Start HTTP server listener
-    const server = app.listen(env.PORT, () => {
-      logger.info(`Server running in [${env.NODE_ENV}] mode on port [${env.PORT}]`);
-      logger.info(`Gateway active at http://localhost:${env.PORT}/api/v1/health`);
+    // 3. Start HTTP server listener with dynamic Render port support
+    const PORT = process.env.PORT || env.PORT || 8000;
+    const server = app.listen(PORT, () => {
+      logger.info(`Server running in [${env.NODE_ENV}] mode on port [${PORT}]`);
+      logger.info(`Gateway active at http://localhost:${PORT}/api/v1/health`);
     });
 
     // Handle Unhandled Promise Rejections

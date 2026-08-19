@@ -6,10 +6,13 @@ rte/richtexteditorforreact/node_modules/
 
 # Environment Variables & Secrets
 .env
-.env.local
-.env.*.local
+.env.*
+!.env.example
 Server/.env
+Server/.env.*
+!Server/.env.example
 CarVerse/.env.local
+CarVerse/.env.*.local
 
 # OS Files
 .DS_Store

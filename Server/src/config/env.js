@@ -11,7 +11,7 @@ dotenv.config({ path: path.resolve(__dirname, '../../.env') });
 export const env = Object.freeze({
   NODE_ENV: process.env.NODE_ENV || 'development',
   PORT: parseInt(process.env.PORT || '8000', 10),
-  MONGODB_URI: process.env.MONGODB_URI || process.env.MONGO_URI || 'mongodb://localhost:27017/carverse',
+  MONGODB_URI: process.env.MONGODB_URI || process.env.MONGO_URI || (process.env.NODE_ENV === 'production' ? '' : 'mongodb://localhost:27017/carverse'),
   JWT_SECRET: process.env.JWT_SECRET || 'supersecretjwtkeyforcarverse_change_in_production',
   JWT_EXPIRE: process.env.JWT_EXPIRE || '30d',
   CLIENT_URL: process.env.CLIENT_URL || 'http://localhost:5173',
